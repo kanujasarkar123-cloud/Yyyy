@@ -1,0 +1,27 @@
+name: fetch-images
+on:
+  push:
+    branches: [image-drop]
+    paths: [drop/urls.txt]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download listed images
+        run: |
+          mkdir -p drop/img
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            [ -f "drop/img/$name" ] && continue
+            curl -fsSL --retry 3 -o "drop/img/$name" "$url" || echo "FAILED $name"
+          done < drop/urls.txt
+      - name: Commit images
+        run: |
+          git config user.name "image-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add drop/img
+          git commit -m "add fetched images" || echo "nothing to commit"
+          git push
