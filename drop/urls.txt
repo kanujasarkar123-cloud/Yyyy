@@ -4,4 +4,4 @@ foil.webp https://mcp-tools-z-image-turbo.hf.space/--replicas/k7l8g/gradio_api/f
 virus_bg.webp https://mcp-tools-z-image-turbo.hf.space/--replicas/k7l8g/gradio_api/file=/tmp/gradio/1668d7fb53aeeea88a54d7a7dece3b15fab73d4fb967038e72eafc4198180ef9/image.webp
 bacterium_bg.webp https://mcp-tools-z-image-turbo.hf.space/--replicas/k7l8g/gradio_api/file=/tmp/gradio/c14fc5e16840367c60f4dfb109f7f492aace8081a48ca9b6b4bfff4dc50e906a/image.webp
 key.webp https://mcp-tools-z-image-turbo.hf.space/--replicas/k7l8g/gradio_api/file=/tmp/gradio/9572a1a463a95d219740e421748dfa24dc2e5cb7333c7830e388ecc5875d4f4c/image.webp
-hand_capsule.webp https://mcp-tools-z-image-turbo.hf.space/--replicas/8gnx2/gradio_api/file=/tmp/gradio/69b0172c925212b729bd5a12cc4b30b4970a747fabde7f424b87d9d34ae43623/image.webp
+hand_capsule.webp https://mcp-tools-z-image-turbo.hf.space/--replicas/gf2rn/gradio_api/file=/tmp/gradio/8af2853eb12a9d2865262e754983488bf9fa647349c8de8b84f949b0121f02b7/image.webp
